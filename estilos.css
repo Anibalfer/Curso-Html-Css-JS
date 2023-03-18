@@ -1,0 +1,20 @@
+#cabeceraweb{background-color: aquamarine;
+margin-top: 0px;}
+
+#navegaprincipal{background-color: rgb(225, 250, 215);}
+
+#barralateral{background-color: beige;
+float: left;
+height: 1360px;}
+
+#cuerpo{background-color: rgb(0, 255, 200);
+    margin-left: 150px;
+    padding-left: 15px;
+    padding-top: 15px;}
+
+#piepagina{background-color: rgb(204, 166, 240);
+clear: both;
+margin-top: 40px;}
+
+li{background-color: red;
+display: inline;}

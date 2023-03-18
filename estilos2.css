@@ -1,0 +1,29 @@
+#principal{
+    width: 500px;
+    /*background-color: blue;*/
+    text-align: center;
+    margin: 15px auto;
+    padding: 15px;
+    border: 3px solid hsl(323, 100%, 50%);
+    border-radius: 20px;
+    box-shadow: gray 10px 10px 10px;
+    background: radial-gradient(circle at center, blue, white);
+    
+    
+}
+#principal:hover{
+    transform: scale(1.15);
+    transition: transform 0.5s 0.2s;
+    cursor: pointer;
+    
+}
+@font-face{
+    font-family: BAHNSCHRIFT;
+    src:url(`BAHNSCHRIFT`);
+}
+#titulo{
+    font:bold 36px BAHNSCHRIFT;
+    text-shadow: yellowgreen 3px 3px 10px;
+    color: rgba(0, 0, 0, 0.7);
+
+}

@@ -1,0 +1,77 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+   }
+   table { border-collapse: collapse; border-spacing: 0; }
+   td, th, caption { font-weight: normal; text-align: left; }
+   img, fieldset { border: 0; }
+   ol { padding-left: 1.4em; list-style: decimal; }
+   ul { padding-left: 1.4em; list-style:square; }
+   q:before, q:after { content:''; }
+/*fín del reset de estilos*/
+
+h1{
+    font: normal 1.6em verdana;
+    background: linear-gradient(blue, rgb(39, 175, 238));
+    border-radius: 30px;
+    margin: 20px auto;
+    width: 35%;
+    text-align: center;
+    padding: 6px;
+    color: white;
+    box-shadow: blue 5px 5px 10px;
+    text-shadow: white 2px 2px 5px;
+    
+}
+h2{
+    font: bold 1.2em verdana;
+    margin-left: 20px;
+}
+
+section{
+    width: 95%;
+    border-top: 1px dashed;
+    margin: auto;
+ 
+}
+
+figure{
+    float: left;
+    margin-inline: 20px;
+    
+}
+
+figure img{
+    border-radius: 20px;
+    padding: 4px;
+    background: grey;
+    transition: transform 0.3s ease-in-out 0.1s;
+    box-shadow: rgb(145, 141, 141) 5px 5px 10px;
+    
+}
+
+figure img:hover{
+    transform: scale(1.2);
+     
+}
+
+figcaption{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+
+footer{
+    clear: both;
+    padding-top: 100px;
+    
+}
+
+footer p{
+    font: 1em;
+    color: grey;
+    margin-left: 20px;
+
+}
