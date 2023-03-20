@@ -1,0 +1,38 @@
+#video{
+    width: 720px;
+    margin: 20px auto;
+    background: rgb(41, 41, 37);
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+nav{
+    margin: 5px 0;
+}
+
+#botones{
+    float: left;
+    width: 100px;
+    height: 20px;
+    
+}
+#reproducir{
+    border-radius: 10px;
+}
+#barra{
+    background: rgb(255, 255, 255);
+    width: 600px;
+    height: 16px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 1px 0;
+    margin-left: 70px;
+}
+#progres{
+    position: absolute;
+    width: 0px;
+    height: 17px;
+    background: rgb(5, 170, 247);
+}
