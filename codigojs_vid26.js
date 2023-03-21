@@ -10,7 +10,6 @@ lienzo.strokeStyle="#ffd020";
 lienzo.strokeRect(100,100,120,120);
 lienzo.clearRect(120,120,80,80);
 
-
 }
 
 window.addEventListener("load",comenzar,false);
