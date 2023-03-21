@@ -1,0 +1,19 @@
+body{
+    background: black;
+}
+
+table{
+    text-align: center;
+    background-color: rgb(252, 116, 5);
+    width: 25%;
+    margin: 100px auto;
+    border: 2px rgb(143, 137, 138) solid;
+    box-shadow: white 10px 10px 10px;
+    border-radius: 15px;
+    
+}
+
+td{
+    padding: 10px;
+    border-radius: 10px;
+}
