@@ -1,0 +1,8 @@
+#lienzo{
+    border: 1px solid red;
+}
+section{
+    width: 800px;
+    position: relative;
+    margin: auto;
+}
