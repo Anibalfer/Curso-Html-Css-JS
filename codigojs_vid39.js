@@ -2,7 +2,7 @@ function comenzar(){
 
     let elem_origen=document.getElementById("imagen");
 
-    elem_origen.addEventListener("dragend", function() {alert("comenzo el evento");}, false);
+    elem_origen.addEventListener("dragstart", function() {alert("comenzo el evento");}, false);
 
 }
 
