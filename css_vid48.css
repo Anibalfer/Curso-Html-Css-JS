@@ -1,0 +1,41 @@
+body{
+    background: blanchedalmond;
+}
+
+
+#contenedor{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    
+    
+    
+}
+
+
+#zonaformulario{
+    float: left;
+    padding: 20px;
+    border: 1px solid red;
+    margin-left: 150px;
+    background: rosybrown;
+}
+
+#zonadatos{
+    float: right;
+    width: 300px;
+    margin-left: 20px;
+    padding: 20px;
+    border: 1px solid blue;
+    background: rosybrown;
+
+}
+
+#clave, #valor{
+    width: 180px;
+}
+
+#zonadatos div{
+    padding: 15px;
+    border-bottom: 3px solid #00f;
+}
