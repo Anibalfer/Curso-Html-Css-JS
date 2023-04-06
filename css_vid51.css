@@ -1,0 +1,23 @@
+#contenedor{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    
+    
+}
+
+#cajaformulario{
+    float: left;
+    padding: 20px;
+    border: 1px solid red;
+    margin-left: 150px;
+}
+
+#zonadatos{
+    float: left;
+    width: 300px;
+    margin-left: 20px;
+    padding: 20px;
+    border: 1px solid blue;
+    
+}
