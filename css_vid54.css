@@ -1,3 +1,7 @@
+body{
+    background: rgb(238, 227, 227);
+}
+
 #contenedor{
     width: 80%;
     margin: auto;
@@ -6,12 +10,11 @@
     
 }
 
-#cajaformulario{
+#zonaformulario{
     float: left;
     padding: 20px;
-    border: 1px solid rgb(5, 112, 50);
+    border: 1px solid red;
     margin-left: 150px;
-    background: brown;
 }
 
 #zonadatos{
@@ -19,6 +22,6 @@
     width: 300px;
     margin-left: 20px;
     padding: 20px;
-    border: 1px solid blue;
+    border: 1px dashed blue;
     
 }
