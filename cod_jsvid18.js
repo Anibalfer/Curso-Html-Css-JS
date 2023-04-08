@@ -2,6 +2,7 @@
 let Mivideo, reproducir, barra, progres, maximo;
 maximo=600;
 
+
 //funcion para iniciar las variables y seguir los eventos
 function comenzar(){
 Mivideo=document.getElementById("Mivideo");
