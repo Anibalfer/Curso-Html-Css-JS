@@ -10,7 +10,7 @@ function comenzar(){
 }
 
 function acceso(){
-    window.RequestFileSystem(PERSISTENT, 5*1024*1024, crearSis, errores);
+    window.requestFileSystem(window.PERSISTENT, 5*1024*1024, crearSis, errores);
 
 }
 
